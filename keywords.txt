@@ -1,18 +1,21 @@
 # This is a comment
 
-# matches domain names that contain these words anywhere
+# matches domain names that contain google anywhere
 google
 
-# matches domain names that *start* with these words
+# matches domain names that *start* with google
 ^google
 
-# matches domain names that *end* with these words
-google.*
+# matches domain names that *end* with google
+google\.
+
+# matches domain names that *end* with google and TLD is .com
+google\.com
 
 # Top Level Domains (TLD)
 xyz$
+vip$
 
 # match domain names that contain these words in *any order*
-(?=.*microsoft)(?=.*login)
 (?=.*amazon)(?=.*account)
 (?=.*account)(?=.*login)
