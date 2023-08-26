@@ -6,7 +6,7 @@ import os
 
 
 # Change Domain names and keywords file (if required)
-domains_file = "domain-names-month.txt"
+domains_file = "domain-names-week.txt"
 keywords_file = "keywords.txt"
 
 
