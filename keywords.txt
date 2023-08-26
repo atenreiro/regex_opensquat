@@ -1,11 +1,10 @@
 # This is a comment
 
 # matches domain names that contain 'google' anywhere in them - Example 1
-#google
+google
 
 # matches domain names that contain 'google' anywhere in them - Example 2
 .*google.*
-
 
 # matches domain names that start with 'google'
 ^google
