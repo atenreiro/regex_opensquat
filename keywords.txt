@@ -1,0 +1,25 @@
+# This is a comment
+
+# matches domain names that contain 'google' anywhere in them - Example 1
+#google
+
+# matches domain names that contain 'google' anywhere in them - Example 2
+.*google.*
+
+
+# matches domain names that start with 'google'
+^google
+.*google
+
+# matches domain names that end with 'google'
+google$
+.*google.*
+
+# Containing both words (any order)
+(?=.*)(?=.*bank)
+(?=.*ocbc)(?=.*bank)
+(?=.*dbs)(?=.*bank)
+(?=.*uob)(?=.*bank)
+(?=.*trust)(?=.*bank)
+(?=.*stan)(?=.*bank)
+(?=.*account)(?=.*login)
